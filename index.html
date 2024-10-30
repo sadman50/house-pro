@@ -49,9 +49,12 @@
     <header class="max-w-[1440px] mx-auto lg:px-28 py-5 lg:pt-8 lg:pb-20 bg-white">
 
         <nav class="flex items-center justify-between">
-            <div class="flex items-center gap-3">
-                <h3 class="text-black text-4xl ml-2 font-Manrope font-bold		">Rinterio</h3>
-            </div>
+            <div>
+                <a class="flex items-center gap-3 text-xl cursor-pointer mt-3">
+                    <i class="fa-solid fa-arrow-right  w-7 h-7 bg-green-500 text-black inline-flex rounded-full justify-center items-center -rotate-45 "></i>
+                    <h2 class="text-3xl font-bold text-black">Rinterio</h2>
+                  </a>
+              </div>
             <ul class="hidden lg:flex gap-8 text-xl  text-gray-500">
                 <li><a class="text-black" href="">Home</a></li>
                 <li><a href="">Services</a></li>
@@ -66,7 +69,10 @@
                 class="fa-solid bg-white w-8 h-8 flex justify-center items-center rounded-full  fa-magnifying-glass"></i>
             <i
                 class="fa-solid bg-white w-8 h-8 flex justify-center items-center rounded-full fa-cart-shopping"></i>
-            <button class=" bg-green-400 text-black rounded-[33px] border-none px-6 py-2">Book Consult</button>
+                <div class="bg-green-500 rounded-full mb-3 py-2 px-5 cursor-pointer">
+                    <a class="font-bold text-black">Book Consult</a>
+                    <i class="fa-solid fa-arrow-right  w-7 h-7 bg-black text-white inline-flex rounded-full justify-center items-center -rotate-45 "></i>
+                </div>
             
             <div class=" lg:hidden sm:visible">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
@@ -135,6 +141,63 @@
                  </div>
             </div>
 
+            <!--works process section-->
+            <div class="w-11/12 mx-auto mt-12 bg-white">
+                <div>
+                    <div class="text-center">
+                        <button class="bg-white rounded-full py-2 px-4 mt-8 mb-8">
+                            <i class="fa-solid fa-arrow-right  w-7 h-7 inline-flex rounded-full justify-center items-center"></i>
+                            <a>How we works</a>
+                        </button>
+                        <h2 class=" max-w-3xl mx-auto text-5xl font-bold mb-4 text-secondary">Our Works Process</h2>
+                        <p class="py-6 max-w-2xl mx-auto text-neutral">
+                             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                        </p>
+                    </div>
+                    <div class="gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+                        <!-- concept card -->
+                        <div class="card bg-[#E7C1D3] my-12 rounded-lg">
+                            <div class="pl-7 pt-7">
+                                <img src="assets/concept.png" alt="#" />     
+                            </div>
+                            <div class="card-body ">
+                              <h2 class="card-title font-bold text-2xl text-secondary">Concept</h2>
+                              <p class="text-neutral">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                          </div>
+                   <!-- flow-chart card -->
+                   <div class="card bg-[#EFDA6E] my-12 rounded-lg">
+                    <div class="pl-7 pt-7">
+                        <img src="assets/flow-chart.png" alt="#" />     
+                    </div>
+                    <div class="card-body ">
+                      <h2 class="card-title font-bold text-2xl text-secondary">Design Process</h2>
+                      <p class="text-neutral">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                   <!-- vision card -->
+                   <div class="card bg-[#A4DAC3] my-12 rounded-lg">
+                    <div class="pl-7 pt-7">
+                        <img src="assets/vision.png" alt="#" />     
+                    </div>
+                    <div class="card-body ">
+                      <h2 class="card-title font-bold text-2xl text-secondary">Supervision</h2>
+                      <p class="text-neutral">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                   <!-- budget-planning card -->
+                   <div class="card bg-[#77AAEA] my-12 rounded-lg">
+                    <div class="pl-7 pt-7">
+                        <img src="assets/budget-planning.png" alt="#" />     
+                    </div>
+                    <div class="card-body">
+                      <h2 class="card-title font-bold text-2xl text-secondary">Budget Planning</h2>
+                      <p class="text-neutral">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                             <!--Our works process section end -->
         </section>
 
 
