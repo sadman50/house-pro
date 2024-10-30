@@ -5,16 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>house-pro</title>
+    <script src="https://kit.fontawesome.com/f276745eda.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <title>House-pro</title>
     
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="max-w-[1440px] mx-auto lg:px-28 py-5 lg:pt-8 lg:pb-20 bg-white">
 
+        <nav class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <h3 class="text-black text-4xl ml-2 font-Manrope font-bold		">Rinterio</h3>
+            </div>
+            <ul class="hidden lg:flex gap-8 text-xl  text-gray-500">
+                <li><a class="text-black" href="">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+           
+
+        <div class=" hidden lg:flex gap-6 items-center">
+            <i
+                class="fa-solid bg-white w-8 h-8 flex justify-center items-center rounded-full  fa-magnifying-glass"></i>
+            <i
+                class="fa-solid bg-white w-8 h-8 flex justify-center items-center rounded-full fa-cart-shopping"></i>
+            <button class=" bg-green-400 text-black rounded-[33px] border-none px-6 py-2">Book Consult</button>
+            
+            <div class="absolute top-2 right-2 w-8 h-8 flex justify-center items-center rounded-full visible">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+            </div>
+        </div>
         </nav>
         <section>
-            
+            <div class="banner space-y-6 p-4 ">
+                <img class="mx-auto my-4" src="assets/banner.png" alt="">
+                <h1 class=" text-4xl lg:text-6xl text-black  font-bold text-center">A barn house of this design has a
+                    striking appearance</h1>
+                <p class="text-xl text-gray-500 text-center">The barn house captivates with its blend of rustic charm and
+                    modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the
+                    space with natural light.</p>
+                <div class="flex justify-center ">
+                    <button class=" bg-green-400 w-full lg:w-40 text-black rounded-[32px] border-none px-6 py-2">View
+                        Details</button>
+                </div>
+            </div>
         </section>
     </header>
     <main>
